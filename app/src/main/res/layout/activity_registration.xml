@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".registration"
+
+    android:background="@drawable/b5">
+
+    <EditText
+        android:id="@+id/n"
+        android:layout_width="320dp"
+        android:layout_height="41dp"
+        android:layout_marginLeft="50dp"
+
+
+        android:drawablePadding="10dp"
+        android:paddingLeft="10dp"
+        android:drawableLeft="@drawable/ic_username"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/edit_round"
+        android:hint="@string/UName" />
+    <EditText
+        android:layout_width="320dp"
+        android:layout_height="41dp"
+        android:layout_marginLeft="50dp"
+
+        android:drawablePadding="10dp"
+        android:paddingLeft="10dp"
+        android:drawableLeft="@drawable/ic_person_black_24dp"
+
+        android:background="@drawable/edit_round"
+
+        android:layout_marginTop="10dp"
+        android:id="@+id/n2"
+        android:layout_below="@+id/n"
+        android:hint="@string/name"/>
+    <EditText
+
+        android:background="@drawable/edit_round"
+
+        android:layout_width="320dp"
+        android:layout_height="41dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="10dp"
+        android:id="@+id/c"
+        android:layout_below="@+id/n2"
+        android:drawableLeft="@drawable/ic_place"
+        android:paddingLeft="10dp"
+        android:drawablePadding="10dp"
+        android:hint="@string/city"/>
+    <EditText
+        android:layout_width="320dp"
+        android:layout_height="41dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="10dp"
+        android:drawableLeft="@drawable/ic_phone_black_24dp"
+        android:background="@drawable/edit_round"
+        android:id="@+id/m"
+        android:drawablePadding="10dp"
+        android:paddingLeft="10dp"
+        android:layout_below="@+id/c"
+        android:inputType="number"
+        android:hint="@string/phone"/>
+    <EditText
+        android:layout_width="320dp"
+        android:layout_height="41dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/edit_round"
+        android:id="@+id/p"
+        android:layout_below="@+id/m"
+        android:inputType="textPassword"
+        android:drawableLeft="@drawable/ic_vpn_key_black_24dp"
+        android:paddingLeft="10dp"
+        android:drawablePadding="10dp"
+        android:hint="@string/pword"/>
+    <EditText
+        android:layout_width="320dp"
+        android:layout_height="41dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/edit_round"
+        android:drawableLeft="@drawable/ic_lock"
+        android:id="@+id/p1"
+        android:drawablePadding="10dp"
+        android:paddingLeft="10dp"
+        android:layout_below="@+id/p"
+        android:inputType="textPassword"
+        android:hint="@string/RePass"/>
+    <AutoCompleteTextView
+        android:layout_width="320dp"
+        android:layout_height="41dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/edit_round"
+
+        android:id="@+id/b"
+        android:layout_below="@+id/p1"
+        android:hint="@string/Sbloodg"
+        android:drawableLeft="@drawable/ic_blood"
+        android:paddingLeft="10dp"
+        android:drawablePadding="10dp"
+        android:completionThreshold="1"
+        android:completionHint="Select BloodGroup"/>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/i1"
+
+        android:padding="5dp"
+        android:layout_alignTop="@id/b"
+        android:layout_alignBottom="@id/b"
+        android:layout_alignRight="@id/b"
+        android:src="@drawable/ic_arrow_drop_down"/>
+
+    <EditText
+        android:layout_width="320dp"
+        android:layout_height="41dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="10dp"
+        android:id="@+id/e1"
+        android:inputType="textEmailAddress"
+        android:background="@drawable/edit_round"
+        android:layout_below="@+id/b"
+        android:drawablePadding="10dp"
+        android:paddingLeft="10dp"
+        android:drawableLeft="@drawable/ic_email_black_24dp"
+        android:hint="@string/email"/>
+    <Button
+        android:layout_width="320dp"
+        android:layout_height="41dp"
+        android:layout_marginLeft="50dp"
+        android:layout_below="@+id/e1"
+        android:id="@+id/bb"
+        android:layout_marginTop="100dp"
+        android:background="@drawable/button_round"
+        android:textColor="@color/white"
+
+        android:text="CLICK TO REGISTER"/>
+
+
+</RelativeLayout>

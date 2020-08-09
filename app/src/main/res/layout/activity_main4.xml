@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/red"
+    tools:context=".Main4Activity">
+
+
+    <TextView
+        android:id="@+id/a1"
+        android:layout_width="305dp"
+        android:layout_height="wrap_content"
+
+        android:paddingLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="50dp"
+        android:textAlignment="center"
+
+        android:text="Delete Donor"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:id="@+id/naa"
+
+        android:layout_width="320dp"
+        android:layout_height="41dp"
+        android:layout_marginLeft="50dp"
+        android:drawableLeft="@drawable/ic_person_black_24dp"
+        android:paddingLeft="10dp"
+        android:drawablePadding="10dp"
+        android:layout_below="@id/a1"
+
+        android:layout_marginTop="50dp"
+        android:text="dfdfdf"
+        android:textSize="20dp" />
+
+
+    <TextView
+        android:id="@+id/paa"
+        android:layout_width="320dp"
+        android:layout_height="41dp"
+        android:layout_marginLeft="50dp"
+        android:drawableLeft="@drawable/ic_vpn_key_black_24dp"
+        android:paddingLeft="10dp"
+        android:drawablePadding="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/naa"
+
+
+
+        android:text="eee"
+        android:textSize="20dp" />
+
+
+    <TextView
+        android:id="@+id/cii"
+        android:layout_width="320dp"
+        android:layout_height="41dp"
+        android:layout_marginLeft="50dp"
+        android:drawableLeft="@drawable/ic_place"
+        android:paddingLeft="10dp"
+        android:drawablePadding="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/paa"
+
+
+        android:text="dddd"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/moo"
+        android:layout_width="320dp"
+        android:layout_height="41dp"
+        android:layout_marginLeft="50dp"
+        android:inputType="number"
+        android:drawableLeft="@drawable/ic_phone_black_24dp"
+        android:paddingLeft="10dp"
+        android:drawablePadding="10dp"
+        android:layout_below="@id/cii"
+
+        android:layout_marginTop="10dp"
+
+        android:text="aaaaa"
+        android:textSize="20dp" />
+
+
+    <TextView
+        android:id="@+id/bll"
+        android:layout_width="320dp"
+        android:layout_height="41dp"
+        android:layout_marginLeft="50dp"
+        android:drawableLeft="@drawable/ic_blood"
+        android:paddingLeft="10dp"
+        android:drawablePadding="10dp"
+        android:layout_below="@id/moo"
+
+        android:layout_marginTop="10dp"
+
+        android:text="nnnn"
+        android:textSize="20dp" />
+
+
+
+    <Button
+        android:id="@+id/del"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/bll"
+        android:layout_marginTop="50dp"
+
+        android:layout_marginLeft="50dp"
+        android:text="DELETE BONOR"
+        android:background="@drawable/button_round"
+        android:textColor="@color/white"/>
+
+</RelativeLayout>
+

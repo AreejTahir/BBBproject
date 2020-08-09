@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/red"
+    tools:context=".Username">
+    <EditText
+        android:layout_width="320dp"
+        android:layout_height="41dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="250dp"
+
+        android:drawablePadding="10dp"
+        android:background="@drawable/edit_round"
+        android:id="@+id/nn"
+        android:paddingLeft="10dp"
+        android:drawableLeft="@drawable/ic_person_black_24dp"
+        android:hint="@string/name"/>
+
+
+    <EditText
+
+        android:layout_width="320dp"
+        android:layout_height="41dp"
+        android:layout_marginLeft="50dp"
+        android:drawablePadding="10dp"
+        android:id="@+id/pp"
+        android:layout_marginTop="10dp"
+        android:drawableLeft="@drawable/ic_vpn_key_black_24dp"
+        android:paddingLeft="10dp"
+        android:background="@drawable/edit_round"
+        android:inputType="textPassword"
+        android:layout_below="@+id/nn"
+        android:hint="@string/pword"/>
+    <Button
+        android:layout_width="320dp"
+        android:layout_height="41dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="50dp"
+        android:layout_below="@+id/pp"
+        android:id="@+id/boo"
+        android:background="@drawable/button_round"
+        android:textColor="@color/white"
+
+        android:text="Next"/>
+
+
+
+</RelativeLayout>
+
+
+

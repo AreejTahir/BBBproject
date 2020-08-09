@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main2Activity"
+    android:background="@drawable/b16"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/line"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:id="@+id/t"
+        />
+    <EditText
+        android:layout_width="320dp"
+        android:layout_height="41dp"
+        android:layout_marginLeft="50dp"
+        android:paddingLeft="10dp"
+        android:drawableLeft="@drawable/ic_person_black_24dp"
+        android:drawablePadding="10dp"
+        android:background="@drawable/edit_round"
+        android:layout_marginTop="80dp"
+        android:id="@+id/n"
+        android:layout_below="@+id/t"
+        android:hint="Name"/>
+    <EditText
+        android:layout_width="320dp"
+        android:layout_height="41dp"
+        android:layout_marginLeft="50dp"
+        android:background="@drawable/edit_round"
+        android:id="@+id/c"
+        android:drawableLeft="@drawable/ic_place"
+        android:paddingLeft="10dp"
+        android:drawablePadding="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/n"
+        android:hint="City"/>
+    <EditText
+        android:layout_width="320dp"
+        android:layout_height="41dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="10dp"
+        android:id="@+id/m"
+        android:layout_below="@+id/c"
+        android:background="@drawable/edit_round"
+        android:drawableLeft="@drawable/ic_phone_black_24dp"
+        android:paddingLeft="10dp"
+        android:drawablePadding="10dp"
+        android:inputType="number"
+        android:hint="Mobile"/>
+    <EditText
+        android:layout_width="320dp"
+        android:layout_height="41dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="10dp"
+        android:id="@+id/p"
+        android:layout_below="@+id/m"
+        android:inputType="textPassword"
+        android:background="@drawable/edit_round"
+        android:drawableLeft="@drawable/ic_vpn_key_black_24dp"
+        android:paddingLeft="10dp"
+        android:drawablePadding="10dp"
+        android:hint="Password"/>
+    <AutoCompleteTextView
+        android:layout_width="320dp"
+        android:layout_height="41dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="10dp"
+        android:id="@+id/b"
+        android:layout_below="@+id/p"
+        android:drawableLeft="@drawable/ic_blood"
+        android:paddingLeft="10dp"
+        android:drawablePadding="10dp"
+        android:background="@drawable/edit_round"
+        android:hint="Select BloodGroup"/>
+
+
+    <ImageView
+        android:id="@+id/i1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_alignTop="@id/b"
+        android:layout_alignBottom="@id/b"
+        android:layout_alignRight="@id/b"
+        android:padding="5dp"
+        android:src="@drawable/ic_arrow_drop_down" />
+
+    <Button
+        android:layout_width="320dp"
+        android:layout_height="41dp"
+        android:layout_marginLeft="50dp"
+        android:layout_below="@+id/b"
+        android:layout_marginTop="100dp"
+        android:id="@+id/bb"
+        android:textColor="@color/white"
+        android:background="@drawable/button_round"
+        android:text="Become a Donor"/>
+
+
+</RelativeLayout>

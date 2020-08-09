@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/d4"
+
+    tools:context=".choice2">
+
+    <Button
+        android:id="@+id/b1"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="174dp"
+        android:background="@drawable/button_round"
+        android:text="SEARCH FOR DONOR"
+        android:textColor="@color/white" />
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/b2"
+        android:layout_marginLeft="50dp"
+        android:background="@drawable/button_round"
+        android:textColor="@color/white"
+        android:text="BECOME A DONOR"
+        android:layout_marginTop="21dp"
+        android:layout_below="@+id/b1"
+        />
+    <Button
+        android:id="@+id/b3"
+        android:layout_below="@id/b2"
+        android:layout_width="300dp"
+        android:layout_marginTop="21dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:text="Edit Donor Detail"
+        android:background="@drawable/button_round"
+        android:textColor="@color/white"
+
+        />
+    <Button
+        android:id="@+id/b5"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/b3"
+        android:layout_marginTop="21dp"
+
+        android:layout_marginLeft="50dp"
+        android:text="DELETE BONOR"
+        android:background="@drawable/button_round"
+        android:textColor="@color/white"/>
+
+    <Button
+
+        android:id="@+id/con"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/b5"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="21dp"
+        android:background="@drawable/button_round"
+        android:text="Contact Us"
+        android:textColor="@color/white" />
+
+</RelativeLayout>
+
+
+
+
+
+
+
+
+
+

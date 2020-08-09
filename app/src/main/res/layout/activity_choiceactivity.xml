@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/red"
+    tools:context=".choiceactivity">
+    <ImageView
+        android:id="@+id/im"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/login"
+
+        android:layout_width="wrap_content"
+
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/n"
+        android:layout_width="320dp"
+        android:layout_height="41dp"
+        android:layout_marginLeft="50dp"
+        android:layout_below="@id/im"
+
+
+        android:layout_marginTop="55dp"
+        android:background="@drawable/edit_round"
+        android:drawableLeft="@drawable/ic_person_black_24dp"
+        android:drawablePadding="10dp"
+        android:hint="@string/UName"
+        android:paddingLeft="10dp"
+
+        />
+
+    <EditText
+        android:id="@+id/c"
+        android:layout_width="320dp"
+        android:layout_height="41dp"
+        android:layout_below="@+id/n"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/edit_round"
+        android:drawableLeft="@drawable/ic_vpn_key_black_24dp"
+        android:drawablePadding="10dp"
+        android:hint="@string/pword"
+
+        android:inputType="textPassword"
+        android:paddingLeft="10dp" />
+
+    <Button
+        android:id="@+id/b1"
+        android:layout_width="219dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/buttonn_round"
+        android:layout_below="@id/b2"
+        android:layout_marginLeft="100dp"
+        android:textColor="@color/white"
+        android:layout_marginTop="10dp"
+        android:textAllCaps="false"
+        android:text="@string/account" />
+
+    <Button
+        android:id="@+id/b2"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/c"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="60dp"
+        android:background="@drawable/button_round"
+
+        android:textColor="@color/white"
+
+        android:text="LOGIN" />
+
+
+</RelativeLayout>

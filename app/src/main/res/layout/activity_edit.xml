@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+
+
+    android:background="@color/red"
+    android:layout_height="match_parent"
+    tools:context=".Edit">
+
+    <TextView
+        android:id="@+id/a1"
+        android:layout_width="305dp"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/ic_edit"
+        android:paddingLeft="10dp"
+        android:layout_marginLeft="50dp"
+        android:textAlignment="center"
+        android:background="@drawable/edit_round"
+        android:text="Edit Information"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+
+    <EditText
+        android:id="@+id/na"
+        android:background="@drawable/edit_round"
+        android:layout_width="320dp"
+        android:layout_height="41dp"
+        android:layout_marginLeft="50dp"
+        android:drawableLeft="@drawable/ic_person_black_24dp"
+        android:paddingLeft="10dp"
+        android:drawablePadding="10dp"
+        android:layout_below="@id/a1"
+
+        android:layout_marginTop="50dp"
+        android:text="dfdfdf"
+        android:textSize="12dp" />
+
+
+    <EditText
+        android:id="@+id/pa"
+        android:layout_width="320dp"
+        android:layout_height="41dp"
+        android:layout_marginLeft="50dp"
+        android:drawableLeft="@drawable/ic_vpn_key_black_24dp"
+        android:paddingLeft="10dp"
+        android:drawablePadding="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/na"
+
+
+        android:background="@drawable/edit_round"
+        android:text="eee"
+        android:textSize="12dp" />
+
+
+    <EditText
+        android:id="@+id/ci"
+        android:layout_width="320dp"
+        android:layout_height="41dp"
+        android:layout_marginLeft="50dp"
+        android:drawableLeft="@drawable/ic_place"
+        android:paddingLeft="10dp"
+        android:drawablePadding="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/pa"
+
+        android:background="@drawable/edit_round"
+        android:text="dddd"
+        android:textSize="12dp" />
+
+    <EditText
+        android:id="@+id/mo"
+        android:layout_width="320dp"
+        android:layout_height="41dp"
+        android:layout_marginLeft="50dp"
+        android:drawableLeft="@drawable/ic_phone_black_24dp"
+        android:paddingLeft="10dp"
+        android:drawablePadding="10dp"
+        android:layout_below="@id/ci"
+
+        android:layout_marginTop="10dp"
+        android:background="@drawable/edit_round"
+        android:text="aaaaa"
+        android:textSize="12dp" />
+
+
+    <AutoCompleteTextView
+        android:id="@+id/bl"
+        android:layout_width="320dp"
+        android:layout_height="41dp"
+        android:layout_marginLeft="50dp"
+        android:drawableLeft="@drawable/ic_blood"
+        android:paddingLeft="10dp"
+        android:drawablePadding="10dp"
+        android:layout_below="@id/mo"
+
+        android:layout_marginTop="10dp"
+        android:background="@drawable/edit_round"
+        android:text="nnnn"
+        android:textSize="12dp" />
+    <ImageView
+        android:id="@+id/i1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_alignRight="@id/bl"
+        android:layout_alignBottom="@id/bl"
+        android:layout_alignTop="@id/bl"
+        android:padding="5dp"
+        android:src="@drawable/ic_arrow_drop_down" />
+
+    <Button
+        android:id="@+id/bu"
+        android:layout_width="320dp"
+        android:layout_height="41dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="400dp"
+        android:background="@drawable/button_round"
+        android:text="Update"
+        android:textColor="@color/white" />
+
+</RelativeLayout>
